@@ -3,6 +3,7 @@
     <NavBar />
     <IdeaComp />
     <RulesComp />
+    <JudgeComp />
     <FooterComp />
   </div>
 </template>
@@ -12,6 +13,7 @@ import NavBar from "@/components/NavBar.vue";
 import IdeaComp from "@/components/IdeaComp.vue";
 import FooterComp from "@/components/FooterComp.vue";
 import RulesComp from '@/components/RulesComp.vue';
+import JudgeComp from '@/components/JudgeComp.vue';
 
 export default {
   name: "LandingPage",
@@ -19,6 +21,7 @@ export default {
     NavBar,
     IdeaComp,
     RulesComp,
+    JudgeComp,
     FooterComp,
   },
 };

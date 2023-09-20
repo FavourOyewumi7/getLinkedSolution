@@ -11,7 +11,8 @@ module.exports = {
         'pink': '#D434FE',
         'white': '#ffffff',
         'border': '#ffffff2e',
-        'footer': '#100B20'
+        'footer': '#100B20',
+        'pink-j': '#FF26B9'
         }
   },
   plugins: [],
