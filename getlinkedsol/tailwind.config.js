@@ -9,7 +9,9 @@ module.exports = {
         'card-dark':'#1C162F',
         'purple':'#903AFF',
         'pink': '#D434FE',
-        'white': '#ffffff'
+        'white': '#ffffff',
+        'border': '#ffffff2e',
+        'footer': '#100B20'
         }
   },
   plugins: [],

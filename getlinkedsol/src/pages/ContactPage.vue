@@ -6,7 +6,7 @@
   <div class="bg-dark w-full h-full px-16">
     <NavBar />
     <div class="px-20 pt-20 grid gap-4 grid-cols-2 h-screen">
-      <section class="pt-16 text-left contact-section text-white ">
+      <section class="pt-16 text-left contact-section text-white">
         <div class="">
           <h3 class="contact-header text-pink text-left">Get in touch</h3>
 
@@ -39,7 +39,9 @@
       </section>
 
       <section class="">
-        <div class="shadow-lg rounded-lg bg-card-dark px-16 pb-16 pt-12 flex flex-row justify-center">
+        <div
+          class="shadow-lg rounded-lg bg-card-dark px-16 pb-16 pt-12 flex flex-row justify-center"
+        >
           <div class="">
             <h3 class="contact-header-1 text-pink text-left pb-2">
               Questions or need assistance
@@ -73,10 +75,9 @@
                 placeholder="Message"
                 class="w-[27.313rem] h-[7.438rem] rounded my-4 bg-card-dark border border-1 border-white placeholder:pl-4 pt-0"
               />
-            <div class="flex flex-row justify-center my-4">
+              <div class="flex flex-row justify-center my-4">
                 <ButtonVal> Submit </ButtonVal>
-            </div>
-
+              </div>
             </form>
           </div>
         </div>
@@ -92,7 +93,7 @@ export default {
   name: "ContactPage",
   components: {
     NavBar,
-    ButtonVal
+    ButtonVal,
   },
 };
 </script>

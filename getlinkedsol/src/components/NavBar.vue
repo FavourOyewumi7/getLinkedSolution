@@ -3,11 +3,11 @@
     href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700&display=swap"
     rel="stylesheet"
   />
-  <nav class="pt-12 pb-10 flex justify-between ">
-    <div class="nav-header">
+  <nav class="pt-12 pb-10 flex justify-between px-16">
+    <header class="nav-header">
       <span class="text-white m-0 p-0"> get </span>
       <span class="text-pink m-0 p-0"> linked </span>
-    </div>
+    </header>
 
     <div class="nav-links flex text-white text-sm flex-col justify-center">
       <ul class="flex">
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .nav-header {
   font-size: 2.25rem;
   font-style: normal;
