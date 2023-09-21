@@ -1,8 +1,8 @@
 <template>
-  <link
+  <!-- <link
     href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,600&display=swap"
     rel="stylesheet"
-  />
+  /> -->
   <div class="bg-dark w-full h-full px-16">
     <NavBar />
     <div class="px-20 pt-20 grid gap-4 grid-cols-2 h-screen">

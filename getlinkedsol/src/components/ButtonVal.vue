@@ -1,7 +1,7 @@
 <template>
   <div>
     <button
-      class="text-white text-sm w-[10.75rem] h-[3.313rem] rounded-sm px-4 py-2"
+      class="text-white text-sm w-[10.75rem] h-[3rem] rounded-sm px-4 py-2"
     >
       <slot> </slot>
     </button>

@@ -1,9 +1,9 @@
 <template>
-  <link
+  <!-- <link
     href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700&display=swap"
     rel="stylesheet"
-  />
-  <nav class="pt-12 pb-10 flex justify-between px-16">
+  /> -->
+  <nav class="pt-12 pb-8 flex justify-between px-16">
     <header class="nav-header">
       <span class="text-white m-0 p-0"> get </span>
       <span class="text-pink m-0 p-0"> linked </span>

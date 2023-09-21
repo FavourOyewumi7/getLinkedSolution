@@ -1,10 +1,10 @@
 <template>
-  <link
+  <!-- <link
     href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,600&display=swap"
     rel="stylesheet"
-  />
+  /> -->
   <div
-    class="idea-section text-white grid grid-cols-2 py-12 px-36 border-t border-border"
+    class="rules-section text-white grid grid-cols-2 py-12 px-36 border-t border-border"
   >
     <div class="flex flex-col justify-center">
       <header class="idea-header">
@@ -37,7 +37,7 @@ export default {
 };
 </script>
   
-  <style>
+  <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 .rules-header {
   font-family: Clash Display;

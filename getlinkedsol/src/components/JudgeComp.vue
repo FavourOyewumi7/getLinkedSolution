@@ -1,8 +1,8 @@
 <template>
-    <link
+    <!-- <link
     href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,600&display=swap"
     rel="stylesheet"
-  />
+  /> -->
   <div
     class="judge-section text-white grid grid-cols-2 py-12 px-36 border-t border-border"
   >
