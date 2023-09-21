@@ -18,7 +18,7 @@
       </ul>
     </div>
 
-    <ButtonVal> Register </ButtonVal>
+    <ButtonVal> <router-link to="/register"> Register </router-link> </ButtonVal>
   </nav>
 </template>
 
