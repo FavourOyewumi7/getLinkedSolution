@@ -13,10 +13,10 @@
     <div class=" flex-row justify-between w-3/5 hidden lg:flex">
     <div class="nav-links flex text-white text-sm flex-col justify-center">
       <ul class="flex">
-        <li class="px-8"><router-link to="/">Timeline</router-link></li>
-        <li class="px-8"><router-link to="/"> Overview</router-link></li>
-        <li class="px-8"><router-link to="/"> FAQs</router-link></li>
-        <li class="px-8"><router-link to="/contact"> Contact</router-link></li>
+        <li class="px-8"><router-link to="/non" active-class="active" exact>Timeline</router-link></li>
+        <li class="px-8"><router-link to="/non" active-class="active" exact> Overview</router-link></li>
+        <li class="px-8"><router-link to="/non" active-class="active" exact> FAQs</router-link></li>
+        <li class="px-8"><router-link to="/contact" active-class="active" exact> Contact</router-link></li>
       </ul>
     </div>
 
@@ -108,5 +108,11 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: -1px;
+}
+.active{
+  background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 </style>
