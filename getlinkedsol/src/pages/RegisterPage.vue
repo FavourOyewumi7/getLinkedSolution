@@ -11,7 +11,7 @@
         <img src="../assets/registerimage.png" alt="Registration SVG" />
       </div>
 
-      <div class="flex flex-row justify-center">
+      <div class="">
         <div
           class="shadow-lg rounded-lg bg-card-dark pb-16 pt-12 flex flex-row justify-center md:text-left "
         >
