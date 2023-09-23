@@ -1,6 +1,6 @@
 <template>
   <section
-    class="timeline-section text-white py-16 my-16 md:px-36 px-12 border-t border-border"
+    class="timeline-section text-white py-16 my-16 md:px-36 border-t border-border"
   >
     <div class="text-center">
       <h2 class="timeline-header">Timeline</h2>
@@ -10,7 +10,7 @@
       </p>
     </div>
     <div class="flex flex-row w-full justify-center mt-12">
-      <section class="grid grid-cols-9 mt-16">
+      <section class="hidden grid-cols-9 mt-16 md:grid">
         <div class="col-span-4 w-full h-full mb-10">
           <div class="w-full h-full">
             <h3 class="font-bold text-2xl text-pink">Hackathon Announcement</h3>
@@ -138,6 +138,108 @@
             </p>
           </div>
         </div>
+      </section>
+    </div>
+
+    <div class="flex flex-row w-full justify-center mt-4  text-xs">
+      <section class="grid grid-cols-5 mt-16 md:hidden">
+        <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
+          <div class="h-4/5  w-1 bg-pink mb-8"></div>
+          <div class="numbers absolute w-6 h-6 rounded-full z-10 text-center font-bold text-xs">1</div>
+        </div>
+        <div class="col-span-4 w-full h-full mb-10">
+          <div class="w-full h-full">
+            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <p class="text-xs leading-7">
+              The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+            <div>
+              <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
+          <div class="h-4/5  w-1 bg-pink mb-8"></div>
+          <div class="numbers absolute w-6 h-6 rounded-full z-10 text-center font-bold text-xs">2</div>
+        </div>
+        <div class="col-span-4 w-full h-full mb-10">
+          <div class="w-full h-full">
+            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <p class="text-xs leading-7">
+              The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+            <div>
+              <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
+          <div class="h-4/5  w-1 bg-pink mb-8"></div>
+          <div class="numbers absolute w-6 h-6 rounded-full z-10 text-center font-bold text-xs">3</div>
+        </div>
+        <div class="col-span-4 w-full h-full mb-10">
+          <div class="w-full h-full">
+            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <p class="text-xs leading-7">
+              The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+            <div>
+              <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
+          <div class="h-4/5  w-1 bg-pink mb-8"></div>
+          <div class="numbers absolute w-6 h-6 rounded-full z-10 text-center font-bold text-xs">4</div>
+        </div>
+        <div class="col-span-4 w-full h-full mb-10">
+          <div class="w-full h-full">
+            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <p class="text-xs leading-7">
+              The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+            <div>
+              <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
+          <div class="h-4/5  w-1 bg-pink mb-8"></div>
+          <div class="numbers absolute w-6 h-6 rounded-full z-10 text-center font-bold text-xs">5</div>
+        </div>
+        <div class="col-span-4 w-full h-full mb-10">
+          <div class="w-full h-full">
+            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <p class="text-xs leading-7">
+              The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+            <div>
+              <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
+          <div class="h-4/5  w-1 bg-pink mb-8"></div>
+          <div class="numbers absolute w-6 h-6 rounded-full z-10 text-center font-bold text-xs">6</div>
+        </div>
+        <div class="col-span-4 w-full h-full mb-10">
+          <div class="w-full h-full">
+            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <p class="text-xs leading-7">
+              The getlinked tech hackathon 1.0 is formally announced to the
+              general public and teams begin to get ready to register
+            </p>
+            <div>
+              <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
+            </div>
+          </div>
+        </div>
+        
       </section>
     </div>
   </section>

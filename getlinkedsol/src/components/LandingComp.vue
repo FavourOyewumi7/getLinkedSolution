@@ -129,4 +129,18 @@ export default {
     rgba(0, 0, 0, 0) 100%
   );
 }
+@media screen and (max-width: 1100px) and (min-width:600px) {
+  .radial-color-purple{
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .radial-color-purple{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+
 </style>

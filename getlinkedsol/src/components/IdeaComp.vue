@@ -8,6 +8,9 @@
   >
     <div>
       <img src="../assets/idea.png" alt="Big Idea Image" />
+
+      
+        
     </div>
     <div class="flex flex-col justify-center">
       <header class="idea-header">

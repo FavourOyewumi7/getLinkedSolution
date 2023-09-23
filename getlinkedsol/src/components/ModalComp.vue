@@ -12,7 +12,7 @@
         Yes, it was easy and you did it! <br>
         check your mail box for next step 😜
     </p>
-    <router-link to="/register">
+    <router-link to="/">
     <button
       class="text-white text-sm w-full mt-4  h-[3rem] rounded-sm px-4 py-2"
     >

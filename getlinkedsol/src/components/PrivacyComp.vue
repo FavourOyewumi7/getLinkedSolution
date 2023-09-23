@@ -1,5 +1,5 @@
 <template>
-  <section class="privacy-section text-white py-16 my-16 relative  md:mx-36 text-center md:text-left  border-t border-border flex flex-col md:grid md:grid-cols-2">
+  <section class="privacy-section text-white py-16 my-16 relative gap-8  md:pl-16 text-center md:text-left  border-t border-border flex flex-col md:grid md:grid-cols-2">
     <div class="radial-color-purple -bottom-36 -left-48 "></div>
     <div>
       <header class="privacy-header">
@@ -112,5 +112,17 @@ export default {
     rgba(113, 7, 219, 0.44) 18.81%,
     rgba(0, 0, 0, 0) 100%
   );
+}
+@media screen and (max-width: 1100px) and (min-width:600px) {
+  .radial-color-purple{
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .radial-color-purple{
+    width: 200px;
+    height: 200px;
+  }
 }
 </style>
