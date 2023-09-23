@@ -102,6 +102,16 @@
                 <ButtonVal> Submit </ButtonVal>
               </div>
             </form>
+
+            <div class="sm:hidden block">
+              <h5 class="text-pink pt-4 leading-5 text-center">Share on</h5>
+          <ul class="flex flex-row justify-center pt-4">
+            <li class="pr-4"><img src="../assets/instagram.svg" alt="" /></li>
+            <li class="px-4"><img src="../assets/x.svg" alt="" /></li>
+            <li class="px-4"><img src="../assets/facebook.svg" alt="" /></li>
+            <li class="px-4"><img src="../assets/linkedin.svg" alt="" /></li>
+          </ul>
+            </div>
           </div>
         </div>
       </section>
