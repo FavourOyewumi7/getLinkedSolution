@@ -47,7 +47,7 @@ export default {
   height: 700px;
   background: radial-gradient(
     50% 50% at 50% 50%,
-    rgba(75, 16, 136, 0.44) 18.81%,
+    rgba(113, 7, 219, 0.44) 18.81%,
     rgba(0, 0, 0, 0) 100%
   );
 }

@@ -1,5 +1,6 @@
 <template>
-  <section class="privacy-section text-white py-16 my-16  px-20  border-t border-border grid grid-cols-2">
+  <section class="privacy-section text-white py-16 my-16 relative  mx-36  border-t border-border grid grid-cols-2">
+    <div class="radial-color-purple -bottom-36 -left-48 "></div>
     <div>
       <header class="privacy-header">
         Privacy Policy and
@@ -39,7 +40,7 @@
             </svg>
           </span>
           <span class="text-sm leading-7 pl-4">
-            The Standard License grants you a non-exclusive right to <br> navigate
+            The Standard License grants you a non-exclusive right to navigate
             and register for our event
           </span>
         </div>
@@ -59,8 +60,8 @@
             </svg>
           </span>
           <span class="text-sm leading-7 pl-4">
-            You are licensed to use the item available at any free source <br> sites,
-            for your project developement
+            You are licensed to use the item available at any free source sites,
+            for your project development
           </span>
         </div>
       </div>
@@ -95,5 +96,16 @@ export default {
   width: 35.563rem;
   height: 38rem;
   background: rgba(217, 217, 217, 0.03);
+}
+.radial-color-purple {
+  position: absolute;
+  z-index: 10;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(113, 7, 219, 0.44) 18.81%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 </style>

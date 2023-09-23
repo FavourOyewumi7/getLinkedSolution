@@ -51,7 +51,7 @@
               Let us know about it?
             </h3>
 
-            <form action="" class="" @submit.prevent="this.submitContact()">
+            <form action="" class="" @submit="this.submitContact()">
               <input
                 type="text"
                 name="name"

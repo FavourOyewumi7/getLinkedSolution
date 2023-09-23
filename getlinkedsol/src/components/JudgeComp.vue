@@ -6,11 +6,12 @@
   <div
     class="judge-section text-white grid grid-cols-2 py-12 px-36 relative border-t border-border"
   >
-    <div class="radial-color-purple"></div>
+    <div class="radial-color-purple -bottom-20"></div>
+    <div class="radial-color-purple -bottom-64 right-0"></div>
     <div class="flex flex-col justify-center">
-      <img src="../assets/judgingimg.png" alt="Big Idea Image" />
+      <img src="../assets/judgingimg.png" alt="Big Idea Image" class="z-10" />
     </div>
-    <div class="">
+    <div class="z-10">
       <header class="judge-header">
         Judging Criteria <br />
         <span class="text-pink"> Key attributes </span>
