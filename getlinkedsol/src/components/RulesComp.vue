@@ -4,15 +4,16 @@
     rel="stylesheet"
   /> -->
   <div
-    class="rules-section text-white grid grid-cols-2 py-12 px-36 border-t border-border"
+    class="rules-section relative text-white grid grid-cols-2 py-12 px-36 border-t border-border"
   >
+  <div class="radial-color-purple "></div>
     <div class="flex flex-col justify-center">
-      <header class="idea-header">
+      <header class="idea-header z-10">
         Rules and<br />
         <span class="text-pink"> Guidelines </span>
       </header>
 
-      <p class="pt-4 leading-7 text-sm">
+      <p class="pt-4 leading-7 text-sm z-10">
         Our tech hackathon is a melting pot of visionaries, and its purpose is
         <br />
         as clear as day: to shape the future. Whether you're a coding genius,
@@ -47,5 +48,16 @@ export default {
 }
 .rules-section {
   font-family: "Montserrat", sans-serif;
+}
+.radial-color-purple {
+  position: absolute;
+  z-index: 10;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(113, 7, 219, 0.44) 18.81%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 </style>

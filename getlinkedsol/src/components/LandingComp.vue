@@ -2,6 +2,7 @@
   <section
     class="landing-section text-white pl-16 border-t border-border pt-12"
   >
+  <div class="radial-color-purple left-36 top-0"></div>
     <div class="flex flex-row justify-end pr-24">
       <div>
         <h2 class="landing-text text-4xl italic font-extrabold mb-2">
@@ -25,8 +26,8 @@
       </div>
     </div>
     <div class="grid grid-cols-2">
-      <div class="">
-        <img src="../assets/landingimg.png" alt=" getlinked Tech Hackathon" />
+      <div class="z-10">
+        <img src="../assets/landingimg.png" alt=" getlinked Tech Hackathon" class="" />
         <p class="text-xl leading-8 mb-8">
           Participate in getlinked tech Hackathon 2023 stand <br />
           a chance to win a Big prize
@@ -77,7 +78,7 @@ export default {
   },
   methods: {
     timer() {
-      let countDownDate = new Date("Sep 23, 2023 00:20:25").getTime();
+      let countDownDate = new Date("Sep 25, 2023 00:20:25").getTime();
 
       setInterval(() => {
         let now = new Date().getTime();
@@ -116,5 +117,16 @@ export default {
   line-height: 85px;
   letter-spacing: 0em;
   text-align: left;
+}
+.radial-color-purple {
+  position: absolute;
+  
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(113, 7, 219, 0.44) 18.81%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 </style>

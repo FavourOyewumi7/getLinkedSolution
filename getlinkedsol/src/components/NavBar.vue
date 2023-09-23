@@ -5,8 +5,10 @@
   /> -->
   <nav class="pt-12 pb-8 flex justify-between px-16">
     <header class="nav-header">
-      <span class="text-white m-0 p-0"> get </span>
-      <span class="text-pink m-0 p-0"> linked </span>
+      <router-link to="/">
+        <span class="text-white m-0 p-0"> get </span>
+        <span class="text-pink m-0 p-0"> linked </span>
+      </router-link>
     </header>
 
     <div class="nav-links flex text-white text-sm flex-col justify-center">
@@ -18,7 +20,9 @@
       </ul>
     </div>
 
-    <ButtonVal> <router-link to="/register"> Register </router-link> </ButtonVal>
+    <ButtonVal>
+      <router-link to="/register"> Register </router-link>
+    </ButtonVal>
   </nav>
 </template>
 
