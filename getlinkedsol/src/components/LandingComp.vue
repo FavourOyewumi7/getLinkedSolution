@@ -5,7 +5,7 @@
   <div class="radial-color-purple left-36 top-0"></div>
     <div class="flex flex-row sm:justify-end md:pr-24">
       <div>
-        <h2 class="landing-text md:text-4xl italic md:font-extrabold mb-2 text-sm font-bold z-10">
+        <h2 class="landing-text md:text-4xl sm:text-2xl italic md:font-extrabold mb-2 text-sm font-bold z-10">
           Igniting a Revolution in HR Innovation
         </h2>
         <div class="flex flex-row justify-end">

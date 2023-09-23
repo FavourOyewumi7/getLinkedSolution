@@ -4,7 +4,7 @@
     <div>
     <img src="../assets/congratulation.png" alt="">
 
-    <h3 class="text-center font-semibold text-3xl">
+    <h3 class="text-center font-semibold md:text-3xl text-base">
         Congratulations <br>
         you have successfully Registered!
     </h3>

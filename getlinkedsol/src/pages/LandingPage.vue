@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-dark w-full ">
+  <div class="bg-dark w-full relative ">
     <NavBar />
     <LandingComp />
     <IdeaComp />

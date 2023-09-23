@@ -14,7 +14,7 @@
         aim to always take of our participant
       </p>
 
-      <div class="p-16 priv-div border-pink rounded border">
+      <div class="mx-3 md:m-0 p-16 priv-div border-pink rounded border">
         <p class="leading-7 text-sm">
           At getlinked tech Hackathon 1.0, we value your privacy and are
           committed to protecting your personal information. This Privacy Policy
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="bg-privacy bg-no-repeat relative h-full w-full">
+    <div class="bg-privacy bg-no-repeat relative h-[670px] w-5/5">
       
       <img src="../assets/privacyimg.png" alt="" class="absolute inset-x-0 bottom-0">
       

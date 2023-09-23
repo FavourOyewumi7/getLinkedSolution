@@ -3,10 +3,10 @@
     href="https://api.fontshare.com/v2/css?f[]=clash-display@400,700,600&display=swap"
     rel="stylesheet"
   /> -->
-  <div class="bg-dark w-full h-full px-16">
-    <NavBar />
-    <div class="px-20 pt-20 grid gap-4 grid-cols-2 h-screen">
-      <section class="pt-16 text-left contact-section text-white">
+  <div class="bg-dark w-full h-full ">
+    <NavBar class="hidden sm:block"/>
+    <div class="sm:px-36 sm:pt-20 grid gap-4 sm:grid-cols-2 h-screen">
+      <section class="pt-16 text-left contact-section text-white hidden sm:block">
         <div class="">
           <h3 class="contact-header text-pink text-left">Get in touch</h3>
 
@@ -37,10 +37,21 @@
           </ul>
         </div>
       </section>
-
+      <div @click="$router.back()" class="block sm:hidden pl-8">
+        <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+          <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_177_298)"/>
+          <path d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667" stroke="white"/>
+          <defs>
+          <linearGradient id="paint0_linear_177_298" x1="11.5" y1="0" x2="11.5" y2="23" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#903AFF"/>
+          <stop offset="1" stop-color="#FF26B9"/>
+          </linearGradient>
+          </defs>
+          </svg>
+      </div>
       <section class="">
         <div
-          class="shadow-lg rounded-lg bg-card-dark px-16 pb-16 pt-12 flex flex-row justify-center"
+          class="shadow-lg rounded-lg bg-card-dark px-16 pb-16 sm:pt-12 flex flex-row justify-center"
         >
           <div class="">
             <h3 class="contact-header-1 text-pink text-left pb-2">
@@ -58,7 +69,16 @@
                 id=""
                 v-model="name"
                 placeholder="First Name"
-                class="w-[27.313rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white text-white pl-8"
+                class="md:w-[16.438rem] w-[13.2rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white text-white pl-8"
+              />
+
+              <input
+                type="text"
+                name="name"
+                id=""
+                v-model="name"
+                placeholder="Topic"
+                class="sm:hidden block md:w-[16.438rem] w-[13.2rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white text-white pl-8"
               />
 
               <input
@@ -67,7 +87,7 @@
                 id=""
                 v-model="email"
                 placeholder="Mail"
-                class="w-[27.313rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white  text-white pl-8"
+                class="md:w-[16.438rem] w-[13.2rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white  text-white pl-8"
               />
 
               <input
@@ -76,7 +96,7 @@
                 id=""
                 v-model="message"
                 placeholder="Message"
-                class="w-[27.313rem] h-[7.438rem] rounded my-4 bg-card-dark border border-1 border-white  pt-0 text-white pl-4"
+                class="md:w-[27.313rem] w-[13.2rem] h-[7.438rem] rounded my-4 bg-card-dark border border-1 border-white  pt-0 text-white pl-4"
               />
               <div class="flex flex-row justify-center my-4">
                 <ButtonVal> Submit </ButtonVal>

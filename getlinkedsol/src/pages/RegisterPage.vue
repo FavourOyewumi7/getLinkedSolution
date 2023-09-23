@@ -6,16 +6,16 @@
     
     
 
-    <section class="pt-20 md:grid md:grid-cols-2 pr-16 flex flex-col">
+    <section class="pt-20 md:grid md:grid-cols-2 px-2 md:pr-16 flex flex-col">
       <div>
         <img src="../assets/registerimage.png" alt="Registration SVG" />
       </div>
 
-      <div>
+      <div class="flex flex-row justify-center">
         <div
           class="shadow-lg rounded-lg bg-card-dark pb-16 pt-12 flex flex-row justify-center md:text-left "
         >
-          <div class="w-5/6">
+          <div class="md:w-5/6 w-6/6">
             <h3 class="register-header text-pink text-left mb-8">Register</h3>
 
             <p class="text-sm pb-4">
@@ -91,7 +91,7 @@
                     name="category"
                     id=""
                     v-model="category_val"
-                    class="md:w-[16.438rem] w-[13.2rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
+                    class="md:w-[16.438rem] w-[8.2rem]  sm:w-[13.2rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
                   >
                     <option value="" selected disabled>
                       Select your category
@@ -112,11 +112,15 @@
                     name="group size"
                     id=""
                     v-model="group_size"
-                    class="md:w-[16.438rem] w-[10.2rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
+                    class="md:w-[16.438rem]  w-[8.2rem]  sm:w-[13.2rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
                   >
                     <option value="" selected disabled class="">Select</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    
                   </select>
                 </span>
               </div>
