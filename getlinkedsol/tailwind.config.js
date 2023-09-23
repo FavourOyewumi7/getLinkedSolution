@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}", ],
   theme: {
-      extend: {},
+      extend: {
+        backgroundImage: {
+          'privacy': "url('./assets/privacylock.png')",
+          
+         }
+      },
       colors: {
      
         'dark': '#150E28',

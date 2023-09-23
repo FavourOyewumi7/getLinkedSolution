@@ -51,29 +51,32 @@
               Let us know about it?
             </h3>
 
-            <form action="" class="">
+            <form action="" class="" @submit.prevent="this.submitContact()">
               <input
                 type="text"
-                name=""
+                name="name"
                 id=""
+                v-model="name"
                 placeholder="First Name"
-                class="w-[27.313rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white placeholder:pl-8"
+                class="w-[27.313rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white text-white pl-8"
               />
 
               <input
                 type="email"
-                name=""
+                name="email"
                 id=""
+                v-model="email"
                 placeholder="Mail"
-                class="w-[27.313rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white placeholder:pl-8"
+                class="w-[27.313rem] h-[2.938rem] rounded my-4 bg-card-dark border border-1 border-white  text-white pl-8"
               />
 
               <input
                 type="text"
-                name=""
+                name="message"
                 id=""
+                v-model="message"
                 placeholder="Message"
-                class="w-[27.313rem] h-[7.438rem] rounded my-4 bg-card-dark border border-1 border-white placeholder:pl-4 pt-0"
+                class="w-[27.313rem] h-[7.438rem] rounded my-4 bg-card-dark border border-1 border-white  pt-0 text-white pl-4"
               />
               <div class="flex flex-row justify-center my-4">
                 <ButtonVal> Submit </ButtonVal>
@@ -95,6 +98,39 @@ export default {
     NavBar,
     ButtonVal,
   },
+  data(){
+    return{
+      name:"",
+      email:"",
+      message:"",
+
+    }
+  },
+  methods:{
+    submitContact(){
+      var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+
+var raw = JSON.stringify({
+  "email": this.email,
+  "phone_number": "0903322445533",
+  "first_name": this.name,
+  "message": this.message
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://backend.getlinked.ai/hackathon/contact-form", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+    }
+  }
 };
 </script>
 

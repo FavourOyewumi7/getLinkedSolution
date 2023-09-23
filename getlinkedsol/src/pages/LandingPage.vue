@@ -6,6 +6,7 @@
     <RulesComp />
     <JudgeComp />
     <FAQComp />
+    <TimelineComp />
     <PrizesComp />
     <PartnerComp />
     <PrivacyComp />
@@ -25,6 +26,7 @@ import PrizesComp from "@/components/PrizesComp.vue";
 import FAQComp from "@/components/FAQComp.vue";
 import PartnerComp from "@/components/PartnerComp.vue";
 import PrivacyComp from '@/components/PrivacyComp.vue';
+import TimelineComp from "@/components/TimelineComp.vue";
 
 export default {
   name: "LandingPage",
@@ -35,6 +37,7 @@ export default {
     RulesComp,
     JudgeComp,
     FAQComp,
+    TimelineComp,
     PrizesComp,
     PartnerComp,
     PrivacyComp,

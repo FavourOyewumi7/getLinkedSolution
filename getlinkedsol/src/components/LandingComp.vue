@@ -77,7 +77,7 @@ export default {
   },
   methods: {
     timer() {
-      let countDownDate = new Date("Sep 21, 2023 20:20:25").getTime();
+      let countDownDate = new Date("Sep 23, 2023 00:20:25").getTime();
 
       setInterval(() => {
         let now = new Date().getTime();
