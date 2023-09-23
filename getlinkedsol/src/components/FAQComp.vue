@@ -16,27 +16,27 @@ want to ask about getlinked Hackathon 1.0
 
       <section class="mt-12">
         <div class="border-b border-pink py-2 pt-4 flex justify-between">
-          <span class="text-sm">Can I work on a project I started before the hackathon?</span>
+          <span class="sm:text-sm text-xs">Can I work on a project I started before the hackathon?</span>
           <span class="text-pink">+</span>
         </div>
         <div class="border-b border-pink py-2 pt-4 flex justify-between">
-          <span class="text-sm">What happens if I need help during the hackathon?</span>
+          <span class="sm:text-sm text-xs">What happens if I need help during the hackathon?</span>
           <span class="text-pink">+</span>
         </div>
         <div class="border-b border-pink py-2 pt-4 flex justify-between ">
-          <span class="text-sm">What happens if I don't have an idea for a project?</span>
+          <span class="sm:text-sm text-xs">What happens if I don't have an idea for a project?</span>
           <span class="text-pink">+</span>
         </div>
         <div class="border-b border-pink py-2 pt-4 flex justify-between">
-          <span class="text-sm">Can I join a team or do I have to come with one?</span>
+          <span class="sm:text-sm text-xs">Can I join a team or do I have to come with one?</span>
           <span class="text-pink">+</span>
         </div>
         <div class="border-b border-pink py-2 pt-4 flex justify-between">
-          <span class="text-sm">What happens after the hackathon ends</span>
+          <span class="sm:text-sm text-xs">What happens after the hackathon ends</span>
           <span class="text-pink">+</span>
         </div>
         <div class="border-b border-pink py-2 pt-4 flex justify-between">
-          <span class="text-sm" >Can I work on a project I started before the hackathon?</span>
+          <span class="sm:text-sm text-xs" >Can I work on a project I started before the hackathon?</span>
           <span class="text-pink">+</span>
         </div>
       </section>

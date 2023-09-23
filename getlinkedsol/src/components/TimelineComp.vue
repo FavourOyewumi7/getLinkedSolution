@@ -181,10 +181,10 @@
         </div>
         <div class="col-span-4 w-full h-full mb-10">
           <div class="w-full h-full">
-            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <h3 class="font-bold text-xs text-pink">Teams Registration ends</h3>
             <p class="text-xs leading-7">
-              The getlinked tech hackathon 1.0 is formally announced to the
-              general public and teams begin to get ready to register
+              Interested Participants are no longer Allowed
+              to register
             </p>
             <div>
               <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
@@ -197,10 +197,12 @@
         </div>
         <div class="col-span-4 w-full h-full mb-10">
           <div class="w-full h-full">
-            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <h3 class="font-bold text-xs text-pink">Announcement of the accepted teams
+              and ideas</h3>
             <p class="text-xs leading-7">
-              The getlinked tech hackathon 1.0 is formally announced to the
-              general public and teams begin to get ready to register
+              All teams whom idea has been accepted into 
+getlinked tech hackathon 1.0 2023 are formally 
+announced
             </p>
             <div>
               <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
@@ -213,10 +215,10 @@
         </div>
         <div class="col-span-4 w-full h-full mb-10">
           <div class="w-full h-full">
-            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <h3 class="font-bold text-xs text-pink">Getlinked Hackathon 1.0 Offically Begins</h3>
             <p class="text-xs leading-7">
-              The getlinked tech hackathon 1.0 is formally announced to the
-              general public and teams begin to get ready to register
+              Accepted teams can now proceed to build 
+their ground breaking skill driven solutions
             </p>
             <div>
               <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
@@ -229,10 +231,11 @@
         </div>
         <div class="col-span-4 w-full h-full mb-10">
           <div class="w-full h-full">
-            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <h3 class="font-bold text-xs text-pink">Demo Day</h3>
             <p class="text-xs leading-7">
-              The getlinked tech hackathon 1.0 is formally announced to the
-              general public and teams begin to get ready to register
+              Teams get the opportunity to pitch their 
+              projects to judges. The winner of the 
+              hackathon will also be announced on this day
             </p>
             <div>
               <h3 class="font-bold text-xs text-pink">November 18, 2023</h3>
