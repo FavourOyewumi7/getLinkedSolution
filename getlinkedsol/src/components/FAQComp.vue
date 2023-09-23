@@ -86,4 +86,12 @@ font-style: normal;
 font-weight: 500;
 line-height: 27.5px;
 }
+@media screen and (max-width: 600px){
+  .faq-header {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
 </style>

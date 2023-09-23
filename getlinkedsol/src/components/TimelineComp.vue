@@ -1,11 +1,11 @@
 <template>
   <section
-    class="timeline-section text-white py-16 my-16 md:px-36 border-t border-border"
+    class="timeline-section text-white py-16 pr-8 md:pr-0 my-16 md:px-36 border-t border-border"
   >
     <div class="text-center">
       <h2 class="timeline-header">Timeline</h2>
       <p class="text-sm leading-7">
-        Here is the breakdown of the time we anticipate <br> using for the upcoming
+        Here is the breakdown of the time we anticipate using for the upcoming
         event.
       </p>
     </div>
@@ -20,24 +20,24 @@
             </p>
           </div>
         </div>
-        <div class="w-full h-full col-span-1 flex justify-center relative mb-10 items-center">
-          <div class="h-full  w-1 bg-pink"></div>
+        <div class="w-full h-5/6 col-span-1 flex justify-center relative mb-10 items-center">
+          <div class="h-4/5  w-1 bg-pink"></div>
           <div class="numbers absolute w-8 h-8 rounded-full z-10 text-center font-bold text-2xl">1</div>
         </div>
 
-        <div class="col-span-4 w-full h-full mb-10">
-          <div>
+        <div class="col-span-4 w-full h-full flex flex-col justify-center">
+          <div class="">
             <h3 class="font-bold text-2xl text-pink">November 18, 2023</h3>
           </div>
         </div>
 
-        <div class="col-span-4 w-full h-full mb-10">
-          <div>
+        <div class="col-span-4 w-full h-full flex flex-col justify-center">
+          <div class="">
             <h3 class="font-bold text-2xl text-pink">November 18, 2023</h3>
           </div>
         </div>
-        <div class="w-full h-full col-span-1 flex justify-center mb-10 relative items-center">
-          <div class="h-full  w-1 bg-pink"></div>
+        <div class="w-full h-5/6 col-span-1 flex justify-center mb-10 relative items-center">
+          <div class="h-4/5  w-1 bg-pink"></div>
           <div class="numbers absolute w-8 h-8 rounded-full z-10 text-center font-bold text-2xl">2</div>
         </div>
 
@@ -63,24 +63,24 @@
             </p>
           </div>
         </div>
-        <div class="w-full h-full col-span-1 flex justify-center relative items-center">
-          <div class="h-full w-1 bg-pink"></div>
+        <div class="w-full h-5/6 col-span-1 flex justify-center relative items-center">
+          <div class="h-4/5 w-1 bg-pink"></div>
           <div class="numbers absolute w-8 h-8 rounded-full z-10 text-center font-bold text-2xl">3</div>
         </div>
 
-        <div class="col-span-4 w-full h-full mb-10">
-          <div>
+        <div class="col-span-4 w-full h-full mb-10 flex flex-col justify-center">
+          <div class="">
             <h3 class="font-bold text-2xl text-pink">November 18, 2023</h3>
           </div>
         </div>
 
-        <div class="col-span-4 w-full h-full mb-10">
-          <div>
+        <div class="col-span-4 w-full h-full  flex flex-col justify-center">
+          <div class="">
             <h3 class="font-bold text-2xl text-pink">November 18, 2023</h3>
           </div>
         </div>
-        <div class="w-full h-full col-span-1 flex justify-center relative items-center">
-          <div class="h-full w-1 bg-pink"></div>
+        <div class="w-full h-5/6 col-span-1 flex justify-center relative items-center">
+          <div class="h-4/5 w-1 bg-pink"></div>
           <div class="numbers absolute w-8 h-8 rounded-full z-10 text-center font-bold text-2xl">4</div>
         </div>
 
@@ -107,25 +107,25 @@
             </p>
           </div>
         </div>
-        <div class="w-full h-full col-span-1 flex justify-center relative items-center">
+        <div class="w-full h-5/6 col-span-1 flex justify-center relative items-center">
           
-          <div class="h-full w-1 bg-pink flex-col justify-center"></div>
+          <div class="h-4/5 w-1 bg-pink flex-col justify-center"></div>
           <div class="numbers absolute w-8 h-8 rounded-full z-10 text-center font-bold text-2xl">5</div>
         </div>
 
-        <div class="col-span-4 w-full h-full">
-          <div>
+        <div class="col-span-4 w-full h-full flex flex-col justify-center">
+          <div class="flex flex-col justify-center">
             <h3 class="font-bold text-2xl text-pink">November 18, 2023</h3>
           </div>
         </div>
 
-        <div class="col-span-4 w-full h-full mb-10">
-          <div>
+        <div class="col-span-4 w-full h-full  flex flex-col justify-center">
+          <div class=" ">
             <h3 class="font-bold text-2xl text-pink">November 18, 2023</h3>
           </div>
         </div>
-        <div class="w-full h-full col-span-1 flex justify-center relative items-center">
-          <div class="h-full w-1 bg-pink "></div>
+        <div class="w-full h-5/6 col-span-1 flex justify-center relative items-center">
+          <div class="h-4/5 w-1 bg-pink "></div>
           <div class="numbers absolute w-8 h-8 rounded-full z-10 text-center font-bold text-2xl my-2">6</div>
         </div>
 
@@ -141,7 +141,7 @@
       </section>
     </div>
 
-    <div class="flex flex-row w-full justify-center mt-4  text-xs">
+    <div class="flex flex-row w-full justify-center mt-4  text-xs md:hidden">
       <section class="grid grid-cols-5 mt-16 md:hidden">
         <div class="w-full h-4/5 col-span-1 flex justify-center relative mb-10 items-end">
           <div class="h-4/5  w-1 bg-pink mb-8"></div>
@@ -165,7 +165,7 @@
         </div>
         <div class="col-span-4 w-full h-full mb-10">
           <div class="w-full h-full">
-            <h3 class="font-bold text-xs text-pink">Hackathon Announcement</h3>
+            <h3 class="font-bold text-xs text-pink">Teams Registration begins</h3>
             <p class="text-xs leading-7">
               The getlinked tech hackathon 1.0 is formally announced to the
               general public and teams begin to get ready to register
@@ -263,5 +263,13 @@ export default {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
+}
+@media screen and (max-width: 600px){
+  .timeline-header {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 </style>

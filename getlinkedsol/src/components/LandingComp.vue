@@ -1,18 +1,17 @@
 <template>
   <section
-    class="landing-section text-white pl-16 border-t border-border pt-12"
+    class="landing-section relative text-white px-8  md:px-0 md:pl-16 border-t border-border pt-12"
   >
   <div class="radial-color-purple left-36 top-0"></div>
-    <div class="flex flex-row justify-end pr-24">
+    <div class="flex flex-row sm:justify-end md:pr-24">
       <div>
-        <h2 class="landing-text md:text-4xl italic md:font-extrabold mb-2 text-base font-bold ">
+        <h2 class="landing-text md:text-4xl italic md:font-extrabold mb-2 text-sm font-bold z-10">
           Igniting a Revolution in HR Innovation
         </h2>
         <div class="flex flex-row justify-end">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="255"
-            height="17"
+            class="sm:w-[255px] [h-17px] w-36 "
             viewBox="0 0 255 17"
             fill="none"
           >
@@ -28,8 +27,8 @@
     <div class="md:grid md:grid-cols-2 flex flex-col">
       <div class="z-10 md:block flex flex-col items-center">
         <img src="../assets/landingimg.png" alt=" getlinked Tech Hackathon" class="md:pr-0 " />
-        <p class="text-xl leading-8 mb-8">
-          Participate in getlinked tech Hackathon 2023 stand <br />
+        <p class="md:text-xl md:text-left text-sm leading-8 mb-8 text-center">
+          Participate in getlinked tech Hackathon 2023 stand
           a chance to win a Big prize
         </p>
         <ButtonVal>Register</ButtonVal>

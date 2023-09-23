@@ -47,4 +47,12 @@ export default {
 .idea-section {
   font-family: "Montserrat", sans-serif;
 }
+@media screen and (max-width: 600px){
+  .idea-header {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
 </style>

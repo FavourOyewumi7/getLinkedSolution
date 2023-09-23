@@ -124,5 +124,11 @@ export default {
     width: 200px;
     height: 200px;
   }
+  .privacy-header {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 </style>

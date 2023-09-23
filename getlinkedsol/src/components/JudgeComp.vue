@@ -96,5 +96,11 @@ export default {
     width: 200px;
     height: 200px;
   }
+  .judge-header {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
 }
 </style>
