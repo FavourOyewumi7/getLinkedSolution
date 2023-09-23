@@ -1,6 +1,6 @@
 <template>
   <section
-    class="timeline-section text-white py-16 my-16 px-36 border-t border-border"
+    class="timeline-section text-white py-16 my-16 md:px-36 px-12 border-t border-border"
   >
     <div class="text-center">
       <h2 class="timeline-header">Timeline</h2>

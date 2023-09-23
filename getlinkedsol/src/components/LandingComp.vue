@@ -5,7 +5,7 @@
   <div class="radial-color-purple left-36 top-0"></div>
     <div class="flex flex-row justify-end pr-24">
       <div>
-        <h2 class="landing-text text-4xl italic font-extrabold mb-2">
+        <h2 class="landing-text md:text-4xl italic md:font-extrabold mb-2 text-base font-bold ">
           Igniting a Revolution in HR Innovation
         </h2>
         <div class="flex flex-row justify-end">
@@ -25,9 +25,9 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-2">
-      <div class="z-10">
-        <img src="../assets/landingimg.png" alt=" getlinked Tech Hackathon" class="" />
+    <div class="md:grid md:grid-cols-2 flex flex-col">
+      <div class="z-10 md:block flex flex-col items-center">
+        <img src="../assets/landingimg.png" alt=" getlinked Tech Hackathon" class="md:pr-0 " />
         <p class="text-xl leading-8 mb-8">
           Participate in getlinked tech Hackathon 2023 stand <br />
           a chance to win a Big prize

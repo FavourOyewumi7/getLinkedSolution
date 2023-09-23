@@ -4,7 +4,7 @@
     rel="stylesheet"
   /> -->
   <div
-    class="rules-section relative text-white grid grid-cols-2 py-12 px-36 border-t border-border"
+    class="rules-section relative text-white md:grid md:grid-cols-2 flex flex-col md:text-left text-center py-12 md:px-36 px-12 border-t border-border"
   >
   <div class="radial-color-purple "></div>
     <div class="flex flex-col justify-center">
@@ -15,14 +15,13 @@
 
       <p class="pt-4 leading-7 text-sm z-10">
         Our tech hackathon is a melting pot of visionaries, and its purpose is
-        <br />
         as clear as day: to shape the future. Whether you're a coding genius,
-        a<br />
-        design maverick, or a concept wizard, you'll have the chance to<br />
+        a
+        design maverick, or a concept wizard, you'll have the chance to
         transform your ideas into reality. Solving real-world problems,
-        pushing<br />
+        pushing
         the boundaries of technology, and creating solutions that can change
-        the<br />
+        the
         world, that's what we're all about!
       </p>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <section class="faq-section text-white py-36 px-36 border-t border-border grid grid-cols-2">
+  <section class="faq-section text-white py-36 md:px-36 border-t border-border md:grid md:grid-cols-2 flex flex-col px-12 text-center">
     <div>
       <header class="faq-header">
         Frequently Ask
@@ -42,7 +42,7 @@ want to ask about getlinked Hackathon 1.0
       </section>
     </div>
 
-    <div class=" ">
+    <div class="md:mt-0 mt-32 ">
       <div class="w-4/5 flex justify-between relative">
       <span class="questions-1 px-8">?</span>
       <span class="questions-2 px-8 absolute -top-12 inset-x-1/3 ">?</span>

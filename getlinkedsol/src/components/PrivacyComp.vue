@@ -1,5 +1,5 @@
 <template>
-  <section class="privacy-section text-white py-16 my-16 relative  mx-36  border-t border-border grid grid-cols-2">
+  <section class="privacy-section text-white py-16 my-16 relative  md:mx-36 text-center md:text-left  border-t border-border flex flex-col md:grid md:grid-cols-2">
     <div class="radial-color-purple -bottom-36 -left-48 "></div>
     <div>
       <header class="privacy-header">
@@ -64,10 +64,12 @@
             for your project development
           </span>
         </div>
+        <ButtonVal>Read More</ButtonVal>
+        
       </div>
     </div>
 
-    <div class="bg-privacy bg-no-repeat relative">
+    <div class="bg-privacy bg-no-repeat relative h-full w-full">
       
       <img src="../assets/privacyimg.png" alt="" class="absolute inset-x-0 bottom-0">
       
@@ -76,8 +78,12 @@
 </template>
 
 <script>
+import ButtonVal from './ButtonVal.vue';
 export default {
   name: "PrivacyComp",
+  components:{
+    ButtonVal
+  }
 };
 </script>
 
@@ -93,8 +99,7 @@ export default {
   font-family: "Montserrat", sans-serif;
 }
 .priv-div{
-  width: 35.563rem;
-  height: 38rem;
+ 
   background: rgba(217, 217, 217, 0.03);
 }
 .radial-color-purple {

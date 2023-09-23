@@ -1,6 +1,6 @@
 <template>
-  <section class="footer-section bg-footer text-white px-16">
-    <div class="grid grid-cols-3 gap-4 py-8">
+  <section class="footer-section bg-footer text-white px-16 ">
+    <div class="md:grid md:grid-cols-3 gap-4 py-8 flex flex-col">
       <div class="flex flex-col justify-between">
         <div>
           <header class="footer-header pb-4">
@@ -8,7 +8,7 @@
             <span class="text-pink m-0 p-0"> linked </span>
           </header>
 
-          <p class="text-xs leading-">
+          <p class="text-xs leading-7">
             Getlinked Tech Hackathon is a technology innovation program
             established by a group of organizations with the aim of showcasing
             young and talented individuals in the field of technology
@@ -21,7 +21,7 @@
         </div>
       </div>
 
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row md:justify-center">
         <div>
           <header class="text-pink pt-4 leading-6 font-semibold">
             Useful links
@@ -49,7 +49,7 @@
         </div>
       </div>
 
-      <div class="flex flex-row justify-center">
+      <div class="flex flex-row md:justify-center">
         <div>
           <header class="text-pink pt-4 leading-6 font-semibold">
             Contact Us

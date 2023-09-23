@@ -10,7 +10,7 @@
         <span class="text-pink m-0 p-0"> linked </span>
       </router-link>
     </header>
-
+    <div class="flex flex-row justify-between">
     <div class="nav-links flex text-white text-sm flex-col justify-center">
       <ul class="flex">
         <li class="px-8"><router-link to="/">Timeline</router-link></li>
@@ -23,6 +23,7 @@
     <ButtonVal>
       <router-link to="/register"> Register </router-link>
     </ButtonVal>
+    </div>
   </nav>
 </template>
 

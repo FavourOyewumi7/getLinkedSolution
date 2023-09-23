@@ -4,7 +4,7 @@
     rel="stylesheet"
   /> -->
   <div
-    class="idea-section text-white grid grid-cols-2 py-12 px-36 border-t border-border"
+    class="idea-section text-white gap-8 md:grid md:grid-cols-2 flex flex-col md:text-left text-center py-12 md:px-36 px-12 border-t border-border"
   >
     <div>
       <img src="../assets/idea.png" alt="Big Idea Image" />
@@ -15,12 +15,12 @@
         <span class="text-pink"> tech Hackathon 1.0 </span>
       </header>
 
-      <p class="pt-4 leading-7 text-sm">
-        Our tech hackathon is a melting pot of visionaries, and its purpose is <br>
-        as clear as day: to shape the future. Whether you're a coding genius, a<br>
-        design maverick, or a concept wizard, you'll have the chance to<br>
-        transform your ideas into reality. Solving real-world problems, pushing<br>
-        the boundaries of technology, and creating solutions that can change the<br>
+      <p class="pt-4 leading-7 text-sm md:text-left text-center">
+        Our tech hackathon is a melting pot of visionaries, and its purpose is 
+        as clear as day: to shape the future. Whether you're a coding genius, a
+        design maverick, or a concept wizard, you'll have the chance to
+        transform your ideas into reality. Solving real-world problems, pushing
+        the boundaries of technology, and creating solutions that can change the
         world, that's what we're all about!
       </p>
     </div>

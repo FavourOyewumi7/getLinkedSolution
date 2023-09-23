@@ -1,10 +1,10 @@
 <template>
   <section
-    class="prizes-section relative text-white py-16 px-16 border-t border-border"
+    class="prizes-section relative text-white py-16 md:grid md:grid-cols-2 md:text-left flex flex-col text-center px-16 border-t border-border"
   >
     <div class="radial-color-purple left-36 top-0"></div>
     <!-- <div class="radial-color-light -right-36 top-0"></div> -->
-    <div class="grid grid-cols-2">
+    <!-- <div class=""> -->
       <div class="flex flex-col justify-end mt-8">
         <img src="../assets/prizestrophy.png" alt="Trophy" class="z-10" />
       </div>
@@ -19,7 +19,7 @@
         </p>
         <img src="../assets/prizes.png" alt="Prizes Description" class="z-10" />
       </div>
-    </div>
+    <!-- </div> -->
   </section>
 </template>
 

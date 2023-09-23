@@ -4,7 +4,7 @@
     rel="stylesheet"
   /> -->
   <div
-    class="judge-section text-white grid grid-cols-2 py-12 px-36 relative border-t border-border"
+    class="judge-section text-white md:grid md:grid-cols-2 py-12 md:px-36 px-12 text-center md:text-left relative border-t border-border"
   >
     <div class="radial-color-purple -bottom-20"></div>
     <div class="radial-color-purple -bottom-64 right-0"></div>

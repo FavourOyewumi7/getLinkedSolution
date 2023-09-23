@@ -6,14 +6,14 @@
     
     
 
-    <section class="pt-20 grid grid-cols-2 pr-16">
+    <section class="pt-20 md:grid md:grid-cols-2 pr-16 flex flex-col">
       <div>
         <img src="../assets/registerimage.png" alt="Registration SVG" />
       </div>
 
       <div>
         <div
-          class="shadow-lg rounded-lg bg-card-dark pb-16 pt-12 flex flex-row justify-center"
+          class="shadow-lg rounded-lg bg-card-dark pb-16 pt-12 flex flex-row justify-center md:text-left "
         >
           <div class="w-5/6">
             <h3 class="register-header text-pink text-left mb-8">Register</h3>
@@ -32,7 +32,7 @@
               class=""
               @submit.prevent="this.submitRegistration()"
             >
-              <div class="flex flex-row justify-between">
+              <div class="flex md:flex-row justify-between flex-col">
                 <span class="flex flex-col">
                   <label for="name">Team's Name</label>
                   <input
@@ -58,7 +58,7 @@
                 </span>
               </div>
 
-              <div class="flex flex-row justify-between">
+              <div class="flex md:flex-row justify-between flex-col">
                 <span class="flex flex-col">
                   <label for="Email">Email</label>
                   <input
@@ -91,7 +91,7 @@
                     name="category"
                     id=""
                     v-model="category_val"
-                    class="w-[16.438rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
+                    class="md:w-[16.438rem] w-[13.2rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
                   >
                     <option value="" selected disabled>
                       Select your category
@@ -112,7 +112,7 @@
                     name="group size"
                     id=""
                     v-model="group_size"
-                    class="w-[16.438rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
+                    class="md:w-[16.438rem] w-[10.2rem] h-[2.938rem] shadow bg-[#ffffff08] shadow-[#00000040] rounded my-4 bg-card-dark border border-1 border-white pl-2 text-xs pt-0 pr-2"
                   >
                     <option value="" selected disabled class="">Select</option>
                     <option value="1">1</option>
